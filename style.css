@@ -152,13 +152,18 @@ p {
 }
 }
 .btn{
-  border:1px solid black;
-  box-shadow:0px 15px 10px -10px rgba(0,0,0,0.7);
-  }
+  background:rgba(28, 36, 52, .7);
+  color:white;
+  border:none;
+  border-radius:0px;
+  box-shadow:0px 18px 10px -10px rgba(0,0,0,.7);
+}
 .btn:hover{
+  color:white;
   transform:translate(0px,2px);
-  box-shadow:0px 12px 8px -10px rgba(0,0,0,0.4);
-  }
+  background:rgba(28, 36, 52, .6);
+  box-shadow:0px 15px 8px -10px rgba(0,0,0,0.4);
+}
 #contact {
   background: url("https://lh3.googleusercontent.com/IK-LV5SBNlUTjjIWZG5qcyATz6f7nb0IjJy3uxcubGiU9DFOycxF_EcOv2dqBlTbRUDAmK4BEzegmx90LC63wX2HlQpZcGoZKQYuhnPN3hpDuOt68kobYEV7elbrSPeurzJswAd-9g=w2400");
   width: 100%;
