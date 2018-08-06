@@ -1,21 +1,21 @@
 body {
-  width: 100%;   
+  width: 100%;
   height: 100%;
 }
 /*Next is invalid*/
 header {
   display: flex;
 }
-.navbar { 
-  margin: 1vw 3vw 0vw 3vw; 
+.navbar {
+  margin: 1vw 3vw 0vw 3vw;
   background: rgba(28, 36, 56, .5);
   border:none;
   max-height: 2vw;
   position:fixed; /*for the Test*/
 }
-.navbar-right { 
+.navbar-right {
   margin-right: 0px;
-  float: right; 
+  float: right;
   display:  flex;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -24,7 +24,7 @@ header {
   font-size: 1.15em;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #EDEDED; 
+  color: #EDEDED;
   font-size:1.07em;
 }
 .navbar-header {
@@ -92,7 +92,7 @@ h1{
   background-attachment: fixed;
   background-size: cover;
 }
-h2 { 
+h2 {
   font-family:anaheim;
   font-size:5em;
   margin-top:3vw;
@@ -152,7 +152,13 @@ p {
 }
 }
 .btn{
-  border:1px solid black;}
+  border:1px solid black;
+  box-shadow:0px 15px 10px -10px rgba(0,0,0,0.7);
+  }
+.btn:hover{
+  transform:translate(0px,2px);
+  box-shadow:0px 12px 8px -10px rgba(0,0,0,0.4);
+  }
 #contact {
   background: url("https://lh3.googleusercontent.com/IK-LV5SBNlUTjjIWZG5qcyATz6f7nb0IjJy3uxcubGiU9DFOycxF_EcOv2dqBlTbRUDAmK4BEzegmx90LC63wX2HlQpZcGoZKQYuhnPN3hpDuOt68kobYEV7elbrSPeurzJswAd-9g=w2400");
   width: 100%;
