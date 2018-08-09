@@ -10,6 +10,13 @@ nav{
   background-color:rgba(28,36,56,.5);
   z-index:100;
 }
+.logo{
+  float:left;
+}
+.logo-img{
+  width:46px;
+  margin: 2px 0px 0px 5px;
+}
 .nav-links{
   float:right;
 }
@@ -38,6 +45,9 @@ nav{
     display:inline-block;
     float:none;
   }
+  .logo{
+    display:none;
+}
 }
 h1 {
   font-family:abel;
